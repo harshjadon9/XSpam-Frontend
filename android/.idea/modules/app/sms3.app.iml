@@ -134,6 +134,7 @@
     <orderEntry type="library" name="Gradle: org.webkit:android-jsc:r250230@aar" level="project" />
     <orderEntry type="module" module-name="sms3.react-native-pager-view" />
     <orderEntry type="module" module-name="sms3.react-native-screens" />
+    <orderEntry type="module" module-name="sms3.react-native-async-storage_async-storage" />
     <orderEntry type="module" module-name="sms3.react-native-android-sms-listener" />
     <orderEntry type="module" module-name="sms3.react-native-get-sms-android" />
     <orderEntry type="module" module-name="sms3.react-native-linear-gradient" />

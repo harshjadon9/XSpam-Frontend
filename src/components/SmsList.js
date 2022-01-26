@@ -1,101 +1,89 @@
 import React, { useCallback, useContext, useEffect, useRef, useState } from 'react'
 import { ActivityIndicator, Text, View, StyleSheet, FlatList, Linking, TouchableOpacity } from 'react-native'
-import LinearGradient from 'react-native-linear-gradient'
+
+// Global File
 import colors from '../base'
+
+// Contexts
 import { Context } from '../contexts/sms'
+
+// libs
 import RBSheet from "react-native-raw-bottom-sheet";
-import axios from '../api/axios'
-// import FormData from 'form-data'
-
-// import axios from 'axios'
+import LinearGradient from 'react-native-linear-gradient'
 
 
-const SmsList = ({ sms_list, type }) => {
+
+const SmsList = ({ sms_arr, list_category }) => {
+    // Contexts & refs
     const refRBSheet_pin = useRef();
-    const gradient = useRef();
+    const { sms_time, sms_fetcher, results } = useContext(Context)
+
+    // States
     const [scam_sms, setScam_sms] = useState()
+    const [isFetching, setisFetching] = useState(false) 
 
-    const { sms_time, sms_fetcher, sms_deleter, results } = useContext(Context)
-    const [isFetching, setisFetching] = useState(false)
-    const onRefresh = () => {
-        sms_fetcher()
-    }
-    const red = () => {
+    // Score gradient colors
+    const score_red = ['#FF8A00', '#FF4545']
+    const score_yellow = ['#FFE86C', '#F5AF19']
+    const score_green = ['#95FF93', '#00DC4E']
 
+    // Store Fetched score : id of sms
+    const [res, setRes] = useState({})
+
+    // Handle Score Display Handling
+    const Score_Scam = () => {
         return (
-            <LinearGradient ref={gradient} start={{ x: -0.35, y: 0.15 }} end={{ x: 0.5, y: 1.0 }} colors={score_red} style={styles.score}>
+            <LinearGradient start={{ x: -0.35, y: 0.15 }} end={{ x: 0.5, y: 1.0 }} colors={score_red} style={styles.score}>
                 <ActivityIndicator size="small" color="#fff" />
             </LinearGradient>
         )
     }
-    const green = (item, score) => {
+    const Score_Safe = (item, score) => {
         var color = score_yellow
-        if (score <= 50) {
-            color = score_green
-        } else if (score >= 70) {
-            color = score_red
-        } else {
-            color = score_yellow
-        }
-
+        if (score <= 50) { color = score_green }
+        else if (score >= 70) { color = score_red }
+        else { color = score_yellow }
         return (
-            <LinearGradient ref={gradient} start={{ x: -0.35, y: 0.15 }} end={{ x: 0.5, y: 1.0 }} colors={color} style={styles.score}>
+            <LinearGradient start={{ x: -0.35, y: 0.15 }} end={{ x: 0.5, y: 1.0 }} colors={color} style={styles.score}>
                 <Text style={styles.score_text}>{res[item._id]}</Text>
                 <Text style={styles.score_text_cent}>%</Text>
             </LinearGradient>
         )
     }
 
-    const sms_arr = sms_list
-    const list_type = type
-    const score_red = ['#FF8A00', '#FF4545']
-    const score_yellow = ['#FFE86C', '#F5AF19']
-    const score_green = ['#95FF93', '#00DC4E']
+    // refetch SMSs on refresh
+    const onRefresh = () => {
+        sms_fetcher() // call context funtion
+    }
 
-    const [res, setRes] = useState({})
 
-    // const [loadings, setLoadings] = useState([])
-    // // const res = results.map(o => o.results)
-    // // console.log(res);
-    // results.forEach(element => {
-    //     if (element.score < 0.0) {
-    //         setRes({...res, [element.id] : 0})
-    //     } else {
-    //         setRes({...res, [element.id] : Math.round(element.score * 100)})
-    //     }
-    // });
-    // useEffect(() => {
-    //     console.log(results," -- list");
-    // }, [results])
-    // console.log(res, " -- res")
+
+    // Using useCallback hook to memo data and handle changes
     const res_update = useCallback(() => {
         results.forEach(element => {
             var scr = Math.trunc(element.score * 100)
             if (scr >= 70) {
-                setRes({ ...res, [element.id]: scr})
-                sms_arr.forEach(ele =>{
+                setRes({ ...res, [element.id]: scr })
+                sms_arr.forEach(ele => {
                     if (ele["_id"] == element.id) {
-                    ele["type"] = "scam"
+                        ele["category"] = "scam"
                     }
                 })
             } else if (scr <= 50) {
-                setRes({ ...res, [element.id]: scr})
-                sms_arr.forEach(ele =>{
+                setRes({ ...res, [element.id]: scr })
+                sms_arr.forEach(ele => {
                     if (ele["_id"] == element.id) {
-                    ele["type"] = "safe"
+                        ele["category"] = "safe"
                     }
                 })
-            } else {
-                setRes({ ...res, [element.id]: scr})
-            }
+            } else {setRes({ ...res, [element.id]: scr })}
         });
-        console.info(res)
     }, [results])
+
+    // Fetch scores on component mount
     useEffect(() => {
         res_update()
     }, [results])
-
-    console.log(sms_arr, " -- asd")
 
     return (
         <View>
@@ -104,100 +92,65 @@ const SmsList = ({ sms_list, type }) => {
                 onRefresh={() => onRefresh()}
                 refreshing={isFetching}
                 data={sms_arr}
-                // inverted={true}
                 showsVerticalScrollIndicator={false}
                 keyExtractor={item => item._id}
                 renderItem={({ item }) => {
-                    // useEffect(()=>{
-                    //     return ()=>{}
-                    // },[])
-                    // console.log(item._id)
-                    // console.log(item)
-
-                    if (list_type == item.type || list_type == "all") {
+                    if (list_category == item.category || list_category == "all") {
                         return (
                             <TouchableOpacity delayPressIn={30}
                                 delayLongPress={150} style={styles.item} activeOpacity={.7} onPress={() => {
                                     Linking.openURL("sms:" + item.address)
                                 }}
                                 onLongPress={() => {
-                                    // alert('Long Press')
                                     setScam_sms(item)
                                     refRBSheet_pin.current.open()
-                                }}
-                            >
-                                {res.hasOwnProperty(item._id) == true ?
-                                    green(item, res[item._id])
-                                    :
-                                    red()
-                                    // <View style={{ width: 100, height: 100, backgroundColor: 'red' }}></View>
-                                }
-    
+                                }}>
+
+                                {/* Score display call */}
+                                {res.hasOwnProperty(item._id) == true ? Score_Safe(item, res[item._id]) : Score_Scam()}
+
                                 <View style={styles.main}>
                                     <Text style={styles.main_sms_head}>{item.address}</Text>
+
+                                    {/* Trim SMS body length by 30 char */}
                                     <Text style={styles.main_sms}>{item.body.length < 30
                                         ? `${item.body}`
                                         : `${item.body.substring(0, 30)}...`}</Text>
                                 </View>
+
+                                {/* Time & Seen */}
                                 <View style={styles.time_view}>
                                     <Text style={styles.time}>{sms_time(item.date)}</Text>
                                     {item.read == 1 ? null : <Text style={styles.seen}>✉️</Text>}
                                 </View>
                             </TouchableOpacity>
                         )
-                        
                     }
-                    else{
-                        return true
-                    }
-
-
-                    
+                    else {return true}
                 }
                 } />
+
+            {/* Bottom Sheet popup - onLongPress Event */}
             <RBSheet
                 ref={refRBSheet_pin}
                 closeOnDragDown={true}
-                // animationType={"fade"} 
-                height={150}
-                // openDuration={200}
-
+                height={250}
                 customStyles={{
                     draggableIcon: {
                         backgroundColor: colors.red,
                     },
-
-                    container: {
-                        backgroundColor: colors.off_off_white,
-                        // justifyContent: "space-around",
-                        // alignItems: "center"
-                        padding: 5,
-                        paddingHorizontal: 20,
-                        borderRadius: 20,
-                        borderBottomLeftRadius: 0,
-                        borderBottomRightRadius: 0,
-                    }
-                }}
-            >
-                {/* <Text style={styles.sheet_head}>Report or Delete?</Text> */}
+                    container: styles.sheet_container
+                }}>
+                <Text style={styles.sheet_head}>Report ?</Text>
+                <Text style={styles.sheet_body}>CERT-In is the national nodal agency for responding to computer security incidents as and when they occur.</Text>
                 <View style={{ flexDirection: "row", marginVertical: 15 }}>
                     <TouchableOpacity style={styles.report} onPress={() => {
+                        // Report to CERT-in
                         Linking.openURL("mailto:incident@cert-in.org.in?subject=SMS - Scam %2F Phishing&body=Time:%0A" + Date(scam_sms.date) + "%0A%0AAuther:%0A" + scam_sms.address + "%0A%0ASMS:%0A%22" + scam_sms.body + "%22%0A%0A")
                     }}>
                         <Text style={[styles.report_button_text, { color: colors.red }]}>👮🏻‍♂️ REPORT</Text>
                     </TouchableOpacity>
-                    <LinearGradient style={styles.delete} start={{ x: -0.35, y: 0.15 }} end={{ x: 0.5, y: 1.0 }} colors={score_red}>
-
-                        <TouchableOpacity onPress={() => {
-                            sms_deleter(scam_sms._id)
-                        }}>
-                            <Text style={styles.report_button_text}>🗑 Delete</Text>
-                        </TouchableOpacity>
-
-                    </LinearGradient>
-
                 </View>
-                {/* <PinPop clipText={pinText} popRef={refRBSheet_pin} /> */}
             </RBSheet>
         </View >
     )
@@ -273,17 +226,34 @@ const styles = StyleSheet.create({
         color: colors.text,
 
     },
+    sheet_container: {
+        backgroundColor: colors.off_off_white,
+        padding: 5,
+        paddingHorizontal: 20,
+        borderRadius: 20,
+        borderBottomLeftRadius: 0,
+        borderBottomRightRadius: 0,
+    },
     sheet_head: {
         color: colors.text,
-        fontSize: 24,
-        textAlign: "center",
+        fontSize: 22,
+        textAlign: "left",
+        marginHorizontal:7,
         marginVertical: 4,
-        marginBottom: 12,
+        marginBottom: 1,
         fontFamily: "Poppins-SemiBold"
+    },
+    sheet_body: {
+        color: colors.text,
+        fontSize: 16,
+        textAlign: "left",
+        marginHorizontal:7,
+        marginVertical: 4,
+        marginBottom: 1,
+        fontFamily: "Poppins"
     },
     report: {
         flex: 2,
-        // paddingHorizontal: 30,
         paddingVertical: 12,
         borderRadius: 10,
         borderWidth: 3,
@@ -294,7 +264,6 @@ const styles = StyleSheet.create({
     },
     delete: {
         margin: 5,
-        // paddingHorizontal: 30,
         paddingVertical: 15,
         borderRadius: 10,
         flex: 2,

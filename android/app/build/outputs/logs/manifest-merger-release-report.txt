@@ -1,18 +1,19 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:1:1-30:12
-INJECTED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:1:1-30:12
-INJECTED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:1:1-30:12
-INJECTED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:1:1-30:12
-MERGED from [:react-native-android-sms-listener] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-android-sms-listener/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-pager-view] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-pager-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-safe-area-context] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-screens] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:1:1-30:12
+MERGED from [:react-native-async-storage_async-storage] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-android-sms-listener] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-android-sms-listener/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-pager-view] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-pager-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-safe-area-context] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-native:0.66.4] /Users/harshjadon/.gradle/caches/transforms-3/7403ebe5571a2ce5a6a5fc9876af4814/transformed/jetified-react-native-0.66.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/harshjadon/.gradle/caches/transforms-3/9341f36f0ce470d4b55127e33c2ce075/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r250230] /Users/harshjadon/.gradle/caches/transforms-3/7873a5158addb5bf75ec8bc5226b9f2a/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-get-sms-android] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-get-sms-android/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-linear-gradient] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-get-sms-android] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-get-sms-android/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-linear-gradient] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/harshjadon/.gradle/caches/transforms-3/2e3be5b59ff1001e620058abe4b7c8c9/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/harshjadon/.gradle/caches/transforms-3/6d576f05ff2510ef857a4a4bda541865/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:drawee:2.5.0] /Users/harshjadon/.gradle/caches/transforms-3/da58426860718cf7cd9b6432bdc1e74c/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:2:1-9:12
@@ -57,41 +58,41 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/harshjadon/.gra
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/harshjadon/.gradle/caches/transforms-3/8575925122b766db45775599ac0f123a/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/harshjadon/.gradle/caches/transforms-3/f9626132104606c8a5a0763d03129850/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/harshjadon/.gradle/caches/transforms-3/80cae4052e041bdf30fb0fa272e54409/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:1:1-30:12
-INJECTED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:1:1-30:12
-INJECTED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:1:1-30:12
 	package
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:2:3-21
-		INJECTED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:2:3-21
+		INJECTED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:1:1-30:12
-		INJECTED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:1:1-30:12
+		INJECTED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:1:1-30:12
-		INJECTED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:1:1-30:12
+		INJECTED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.READ_SMS
-ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.WRITE_SMS
-ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:6:5-68
+ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:6:5-68
 	android:name
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:6:22-65
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:6:22-65
 uses-permission#android.permission.SEND_SMS
-ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:7:5-67
+ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:7:22-64
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:7:22-64
 application
-ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:12:5-29:19
+ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:12:5-29:19
 MERGED from [com.facebook.react:react-native:0.66.4] /Users/harshjadon/.gradle/caches/transforms-3/7403ebe5571a2ce5a6a5fc9876af4814/transformed/jetified-react-native-0.66.4/AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.react:react-native:0.66.4] /Users/harshjadon/.gradle/caches/transforms-3/7403ebe5571a2ce5a6a5fc9876af4814/transformed/jetified-react-native-0.66.4/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.1.0] /Users/harshjadon/.gradle/caches/transforms-3/94ecee73d302f93903038c0fd7a3667d/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
@@ -105,59 +106,61 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hars
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /Users/harshjadon/.gradle/caches/transforms-3/2780a7d58323a095a84203f45c645c6e/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:14:7-39
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:14:7-39
 	android:icon
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:15:7-41
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:15:7-41
 	android:allowBackup
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:16:7-34
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:16:7-34
 	android:theme
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:17:7-38
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:17:7-38
 	android:name
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:13:7-38
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:13:7-38
 activity#com.sms3.MainActivity
-ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:18:7-28:18
+ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:18:7-28:18
 	android:label
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:20:9-41
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:20:9-41
 	android:launchMode
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:22:9-40
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:22:9-40
 	android:windowSoftInputMode
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:23:9-51
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:23:9-51
 	android:configChanges
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:21:9-86
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:21:9-86
 	android:name
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:19:9-37
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:19:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:24:9-27:25
+ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:24:9-27:25
 action#android.intent.action.MAIN
-ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:25:13-65
+ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:25:13-65
 	android:name
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:25:21-62
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:25:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:26:13-73
+ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:26:13-73
 	android:name
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:26:23-70
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:26:23-70
 uses-sdk
-INJECTED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-android-sms-listener] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-android-sms-listener/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-android-sms-listener] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-android-sms-listener/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-pager-view] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-pager-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-pager-view] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-pager-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-async-storage_async-storage] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-android-sms-listener] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-android-sms-listener/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-android-sms-listener] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-android-sms-listener/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-pager-view] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-pager-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-pager-view] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-pager-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.66.4] /Users/harshjadon/.gradle/caches/transforms-3/7403ebe5571a2ce5a6a5fc9876af4814/transformed/jetified-react-native-0.66.4/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.66.4] /Users/harshjadon/.gradle/caches/transforms-3/7403ebe5571a2ce5a6a5fc9876af4814/transformed/jetified-react-native-0.66.4/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/harshjadon/.gradle/caches/transforms-3/9341f36f0ce470d4b55127e33c2ce075/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/harshjadon/.gradle/caches/transforms-3/9341f36f0ce470d4b55127e33c2ce075/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [org.webkit:android-jsc:r250230] /Users/harshjadon/.gradle/caches/transforms-3/7873a5158addb5bf75ec8bc5226b9f2a/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r250230] /Users/harshjadon/.gradle/caches/transforms-3/7873a5158addb5bf75ec8bc5226b9f2a/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-get-sms-android] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-get-sms-android/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-get-sms-android] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-get-sms-android/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-linear-gradient] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-linear-gradient] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-get-sms-android] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-get-sms-android/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-get-sms-android] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-get-sms-android/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-linear-gradient] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-linear-gradient] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/harshjadon/.gradle/caches/transforms-3/2e3be5b59ff1001e620058abe4b7c8c9/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/harshjadon/.gradle/caches/transforms-3/2e3be5b59ff1001e620058abe4b7c8c9/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/harshjadon/.gradle/caches/transforms-3/6d576f05ff2510ef857a4a4bda541865/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
@@ -246,17 +249,17 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/harshjadon/.gradle/ca
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/harshjadon/.gradle/caches/transforms-3/f9626132104606c8a5a0763d03129850/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/harshjadon/.gradle/caches/transforms-3/80cae4052e041bdf30fb0fa272e54409/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/harshjadon/.gradle/caches/transforms-3/80cae4052e041bdf30fb0fa272e54409/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
-INJECTED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.RECEIVE_SMS
-ADDED from [:react-native-android-sms-listener] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-android-sms-listener/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-70
+ADDED from [:react-native-android-sms-listener] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-android-sms-listener/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-70
 	android:name
-		ADDED from [:react-native-android-sms-listener] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-android-sms-listener/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-67
+		ADDED from [:react-native-android-sms-listener] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-android-sms-listener/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-67

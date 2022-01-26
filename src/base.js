@@ -8,4 +8,6 @@ const colors = {
     red: "red",
 }
 
-export  default colors
+// declare global variables / functions
+
+export default colors

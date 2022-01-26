@@ -6,61 +6,61 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml
+8-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml
+9-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:4:5-67
-11-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:4:22-64
+11-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:4:22-64
 12    <uses-permission android:name="android.permission.READ_SMS" />
-12-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:5:5-67
-12-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:5:22-64
+12-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:5:5-67
+12-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:5:22-64
 13    <uses-permission android:name="android.permission.WRITE_SMS" />
-13-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:6:5-68
-13-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:6:22-65
+13-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:6:5-68
+13-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:6:22-65
 14    <uses-permission android:name="android.permission.SEND_SMS" />
-14-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:7:5-67
-14-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:7:22-64
+14-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:7:5-67
+14-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:7:22-64
 15    <uses-permission android:name="android.permission.RECEIVE_SMS" />
-15-->[:react-native-android-sms-listener] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-android-sms-listener/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-70
-15-->[:react-native-android-sms-listener] /Users/harshjadon/Desktop/r/sms/sms3/node_modules/react-native-android-sms-listener/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-67
+15-->[:react-native-android-sms-listener] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-android-sms-listener/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-70
+15-->[:react-native-android-sms-listener] /Users/harshjadon/Desktop/r/sms/XSpam-Frontend/node_modules/react-native-android-sms-listener/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-67
 16
 17    <application
-17-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:12:5-29:19
+17-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:12:5-29:19
 18        android:name="com.sms3.MainApplication"
-18-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:13:7-38
+18-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:13:7-38
 19        android:allowBackup="false"
-19-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:16:7-34
+19-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:16:7-34
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 20-->[androidx.core:core:1.1.0] /Users/harshjadon/.gradle/caches/transforms-3/2780a7d58323a095a84203f45c645c6e/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
 21        android:icon="@mipmap/ic_launcher"
-21-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:15:7-41
+21-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:15:7-41
 22        android:label="@string/app_name"
-22-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:14:7-39
+22-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:14:7-39
 23        android:theme="@style/AppTheme" >
-23-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:17:7-38
+23-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:17:7-38
 24        <activity
-24-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:18:7-28:18
+24-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:18:7-28:18
 25            android:name="com.sms3.MainActivity"
-25-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:19:9-37
+25-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:19:9-37
 26            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-26-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:21:9-86
+26-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:21:9-86
 27            android:label="@string/app_name"
-27-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:20:9-41
+27-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:20:9-41
 28            android:launchMode="singleTask"
-28-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:22:9-40
+28-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:22:9-40
 29            android:windowSoftInputMode="adjustResize" >
-29-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:23:9-51
+29-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:23:9-51
 30            <intent-filter>
-30-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:24:9-27:25
+30-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:24:9-27:25
 31                <action android:name="android.intent.action.MAIN" />
-31-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:25:13-65
-31-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:25:21-62
+31-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:25:13-65
+31-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:25:21-62
 32
 33                <category android:name="android.intent.category.LAUNCHER" />
-33-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:26:13-73
-33-->/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/AndroidManifest.xml:26:23-70
+33-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:26:13-73
+33-->/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/AndroidManifest.xml:26:23-70
 34            </intent-filter>
 35        </activity>
 36    </application>
