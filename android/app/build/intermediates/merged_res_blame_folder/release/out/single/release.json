@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/harshjadon/Desktop/r/sms/sms3/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    }
+]

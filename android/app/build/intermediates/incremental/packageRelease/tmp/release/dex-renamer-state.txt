@@ -1,0 +1,4 @@
+#Wed Jan 26 16:17:27 IST 2022
+base.0=/Users/harshjadon/Desktop/r/sms/sms3/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
