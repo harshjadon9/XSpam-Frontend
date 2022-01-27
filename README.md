@@ -1,6 +1,6 @@
 # XSpam-Frontend
 
-blah blah blah
+React-native front-end for XSpam App
 
 ## Testing Release / Debug (.apk)
 
