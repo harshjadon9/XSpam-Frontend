@@ -16,13 +16,12 @@ import Header from './src/components/Header';
 // Contexts
 import { Provider } from "./src/contexts/sms"
 
-
+// intro
 import AppIntroSlider from 'react-native-app-intro-slider';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
+
 const Tab = createMaterialTopTabNavigator();
-
-
 
 
 const SMSPermision = async () => {
@@ -39,7 +38,6 @@ const App = () => {
       return res
     })
     const res = await showcase_check()
-    console.log(res)
     if (res == null) {
       setShowcase(true)
       const setasync = async () => {

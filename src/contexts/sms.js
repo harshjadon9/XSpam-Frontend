@@ -68,6 +68,7 @@ const Provider = ({ children }) => {
         maxCount: 10,
     }
     const loading_check = (arr) => {
+        // AsyncStorage.clear()
         const fetch = async (item) => {
             var id = item._id
             var score = await AsyncStorage.getItem(`${id}`) // skip request if score already exist
@@ -87,7 +88,7 @@ const Provider = ({ children }) => {
                     return score
                 })
             }
-            else {}
+            else { }
             return { id, score }
         }
         // console.log(arr);

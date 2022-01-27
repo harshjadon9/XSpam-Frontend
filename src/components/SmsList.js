@@ -20,7 +20,7 @@ const SmsList = ({ sms_arr, list_category }) => {
 
     // States
     const [scam_sms, setScam_sms] = useState()
-    const [isFetching, setisFetching] = useState(false) 
+    const [isFetching, setisFetching] = useState(false)
 
     // Score gradient colors
     const score_red = ['#FF8A00', '#FF4545']
@@ -76,7 +76,7 @@ const SmsList = ({ sms_arr, list_category }) => {
                         ele["category"] = "safe"
                     }
                 })
-            } else {setRes({ ...res, [element.id]: scr })}
+            } else { setRes({ ...res, [element.id]: scr }) }
         });
     }, [results])
 
@@ -126,7 +126,7 @@ const SmsList = ({ sms_arr, list_category }) => {
                             </TouchableOpacity>
                         )
                     }
-                    else {return true}
+                    else { return true }
                 }
                 } />
 
@@ -238,7 +238,7 @@ const styles = StyleSheet.create({
         color: colors.text,
         fontSize: 22,
         textAlign: "left",
-        marginHorizontal:7,
+        marginHorizontal: 7,
         marginVertical: 4,
         marginBottom: 1,
         fontFamily: "Poppins-SemiBold"
@@ -247,7 +247,7 @@ const styles = StyleSheet.create({
         color: colors.text,
         fontSize: 16,
         textAlign: "left",
-        marginHorizontal:7,
+        marginHorizontal: 7,
         marginVertical: 4,
         marginBottom: 1,
         fontFamily: "Poppins"
