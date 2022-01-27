@@ -1,2 +1,24 @@
 # XSpam-Frontend
-React native
+
+blah blah blah
+
+## Testing Release / Debug (.apk)
+
+```bash
+# Run on emulator / device (usb-debugging)
+# debug
+npx react-native run-android
+
+# release
+npx react-native run-android --variant=release
+
+# Build Release
+cd android && ./gradlew bundleRelease
+```
+## Sign the bundle
+
+Use the official [doc](https://reactnative.dev/docs/signed-apk-android) to sign the .apk / .aab.
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
