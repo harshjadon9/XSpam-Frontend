@@ -30,7 +30,6 @@ const SMSPermision = async () => {
 
 
 const App = () => {
-
   // Showcase features - only first time
   const [showcase, setShowcase] = useState(false)
   const check_show = async () => {
@@ -82,6 +81,18 @@ const App = () => {
       </View>
     );
   }
+  _renderCustomDoneButton = () => {
+    return (
+      <View style={{ borderRadius: 20, overflow: 'hidden' }}>
+        <Text style={{
+          color: colors.text,
+          paddingHorizontal: 20,
+          paddingTop:12,
+          opacity:0.7
+        }}>Finish</Text>
+      </View>
+    );
+  }
   _onDone = () => {
     // User finished the introduction. Show real app through
     // navigation or simply by controlling state
@@ -92,8 +103,8 @@ const App = () => {
   if (showcase == true) {
     return (
       <View style={styles.slider}>
-        <StatusBar translucent backgroundColor="transparent" barStyle={'dark-content'}/>
-        <AppIntroSlider showNextButton={false} renderItem={_renderItem} data={slides} onDone={_onDone} />
+        <StatusBar translucent backgroundColor="transparent" barStyle={'dark-content'} />
+        <AppIntroSlider showNextButton={false} renderDoneButton={_renderCustomDoneButton} renderItem={_renderItem} data={slides} onDone={_onDone} />
       </View>
     )
   }
