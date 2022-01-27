@@ -4,16 +4,24 @@
         "source": "/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
-    },
-    {
         "merged": "/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_foreground.png.flat",
         "source": "/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
+        "merged": "/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_img_2.png.flat",
+        "source": "/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/build/generated/res/react/release/drawable-mdpi/assets_img_2.png"
+    },
+    {
         "merged": "/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_img_1.png.flat",
+        "source": "/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/build/generated/res/react/release/drawable-mdpi/assets_img_1.png"
     },
     {
         "merged": "/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
@@ -42,6 +50,10 @@
     {
         "merged": "/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_img_3.png.flat",
+        "source": "/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/build/generated/res/react/release/drawable-mdpi/assets_img_3.png"
     },
     {
         "merged": "/Users/harshjadon/Desktop/r/sms/XSpam-Frontend/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher_round.png.flat",

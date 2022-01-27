@@ -69,19 +69,25 @@ const Provider = ({ children }) => {
     }
     const loading_check = (arr) => {
         const fetch = async (item) => {
-            const { id, score } = await axios.post(
-                'https://xxspam.herokuapp.com/api',
-                { "message": item.body, "store": share },
-                {
-                    headers: {
-                        'content-type': 'application/json'
+            var id = item._id
+            var score = await AsyncStorage.getItem(`${id}`) // skip request if score already exist
+            if (score == null) {
+                id, score = await axios.post(
+                    'https://xxspam.herokuapp.com/api',
+                    { "message": item.body, "store": share },
+                    {
+                        headers: {
+                            'content-type': 'application/json'
+                        }
                     }
-                }
-            ).then(res => {
-                var id = item._id
-                var score = res.data.score[0]
-                return { id, score }
-            })
+                ).then(res => {
+                    score = res.data.score[0][0]
+                }).then(async () => {
+                    await AsyncStorage.setItem(`${id}`, `${score}`)
+                    return score
+                })
+            }
+            else {}
             return { id, score }
         }
         // console.log(arr);
