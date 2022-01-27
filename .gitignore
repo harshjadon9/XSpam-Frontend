@@ -1,2 +1,5 @@
 /node-modules/*
-node-modules/
+/node-modules/
+node_modules/
+*.DS_Store
+
