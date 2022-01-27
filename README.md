@@ -1,6 +1,7 @@
 # XSpam-Frontend
 
 React-native front-end for XSpam App
+[Video link](https://drive.google.com/file/d/1FPoRCECrZcSqU0Shb-bBs8sFwb-31hp5/view?usp=sharing)
 
 ## Testing Release / Debug (.apk)
 
