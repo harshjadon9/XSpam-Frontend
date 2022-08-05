@@ -1,29 +1,11 @@
 
 
 <p align="center">
-<img width="200" src="https://user-images.githubusercontent.com/62889318/183087391-bc222967-288d-4e03-a63a-aa9a9ed993d7.png">
-
-# XSpam-Frontend
+<img width="100" src="https://user-images.githubusercontent.com/62889318/183087391-bc222967-288d-4e03-a63a-aa9a9ed993d7.png">
+ 
+# XSpam-Frontend (Hackathon)
+ [Main Repo](https://github.com/Team-1337x/XSpam)
 </p>
-
-## Problem Statement
-We aim to develop a mobile app which can automatically scan through SMS texts and detect possible fraud and phishing attacks and suggest the user not to click on such a link. 
-Additionally it must have a "Report This" option which submits the incident to local Cyber Security Department (CERT-In). Hence we can protect citizens from such fraudulent attempts.
-
-## Solution
- - XSpam brings state-of-art Deep Learning and Artificial Intelligence application to the market. Spam Detection could never have been more accurate and secure.
- - Instead of identifying from a pre-stored database, XSpam can easily detect spam from unwanted parties by analyzing messages through our pretrained ML Model.
- - Users can block spam from the app. Incidents can be reported directly to the Indian Computer Emergency Response Team (CERT-In) ,who can take immediate actions.
-
-
-## Architecture Diagram
-
-<img width="612" alt="image" src="https://user-images.githubusercontent.com/62889318/183088117-036d962f-a2a0-4571-850a-5e5878399410.png">
-
-
-## Model Training Graphs
-
-<img width="668" alt="image" src="https://user-images.githubusercontent.com/62889318/183088245-2ca70982-fa46-4405-a0f1-38f62fbcb9c4.png">
 
 
 
@@ -60,3 +42,9 @@ Use the official [doc](https://reactnative.dev/docs/signed-apk-android) to sign 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Hackathon Team
+ - [Harsh Jadon](https://github.com/harshjadon9)
+ - [Karnik Kanojia](https://github.com/karnikkanojia)
+ - [Eshaan Agarwal]()
